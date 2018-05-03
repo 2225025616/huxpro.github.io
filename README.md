@@ -1,8 +1,6 @@
 #Hux Blog
 
-###[View Live Hux Blog &rarr;](https://huangxuan.me)
-
-![](http://huangxuan.me/img/blog-desktop.jpg)
+###[View Live Hux Blog &rarr;](https://jiekouw.com)
 
 
 
@@ -14,17 +12,12 @@ Want to clone a boilerplate instead of my buzz blog? Here comes this!
 $ git clone git@github.com:Huxpro/huxblog-boilerplate.git
 ```
 
-**[View Boilerplate Here &rarr;](http://huangxuan.me/huxblog-boilerplate/)**
+**[View Boilerplate Here &rarr;](http://www.jiekouw.com/)**
 
 
 ## Porting 
 
-- [**Hexo**](https://github.com/Kaijun/hexo-theme-huxblog) by @kaijun
-- [**React-SSR**](https://github.com/LucasIcarus/huxpro.github.io/tree/ssr) by @LucasIcarus
-
-## Translation
-
- - ![cn](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/China.png) **Chinese (Simplified)**: 感谢 [@BrucZhaoR](https://github.com/BruceZhaoR) 的 [中文翻译 &rarr;](https://github.com/Huxpro/huxpro.github.io/blob/master/README.zh.md)
+- [**github Pages**](https://github.com/2225025616/sunyali.github.io)
 
 ## Features
 
@@ -32,7 +25,7 @@ $ git clone git@github.com:Huxpro/huxblog-boilerplate.git
 
 - Annoyed to delete my blog post after clone or pull? **Boilerplate** comes to help you get started quickly and easily merge update.
 - `-apple-system` is added in font rule, which display beautiful new font **San Francisco** in iOS 9 by default.
-- Fixed [issue#15](https://github.com/Huxpro/huxpro.github.io/issues/15) about code wrap.
+- Fixed [issue#15](https://github.com/2225025616/sunyali.github.io/) about code wrap.
 
 ##### New Feature (V1.5.1)
 
@@ -55,8 +48,6 @@ $ git clone git@github.com:Huxpro/huxblog-boilerplate.git
 ##### New Feature (V1.3)
 
 - Big Improvement to the **Navigation Menu** *(especially in Android)*:  Dropping the old, stuttering, low-performance [Bootstrap collapse.js](http://getbootstrap.com/javascript/#collapse),  replaced with an own wrote, [jank free](http://jankfree.org/) navbar menu in a pretty high-performance implementation of [Google Material Design](https://www.google.com/design/spec/material-design/introduction.html).
-
-<img src="http://huangxuan.me/img/blog-md-navbar.gif" width="320" />
 
 
 ##### New Feature (V1.2)
@@ -147,7 +138,7 @@ layout:     post
 title:      "Hello 2015"
 subtitle:   "Hello World, Hello Blog"
 date:       2015-01-29 12:00:00
-author:     "Hux"
+author:     "sunyali"
 header-img: "img/post-bg-2015.jpg"
 tags:
     - Life
@@ -157,7 +148,7 @@ tags:
 
 #### SideBar
 
-![](http://huangxuan.me/img/blog-sidebar.jpg)
+![](http://jiekouw.com/img/blog-sidebar.jpg)
 
 Seeing more information may be necessary for you to display, from V1.1, a clean, gorgeous **SideBar** is added for you, which provide more area for displaying possible modules. You can enable *(it is default enable)* this feature by simply config:
 
@@ -204,12 +195,8 @@ You can just add your friends information in `_config.yml` with a familiar JSON 
 # Friends
 friends: [
     {
-        title: "Foo Blog",
-        href: "http://foo.github.io/"
-    },
-    {
-        title: "Bar Blog",
-        href: "http://bar.github.io"
+        title: "前端小路",
+        href: "http://jiekouw.com/"
     }
 ]
 ```
@@ -225,8 +212,8 @@ Under the hood, a `iframe` is used to include webpage from outer source, so the 
 
 ```
 ---
-layout:     keynote
-iframe:     "http://huangxuan.me/js-module-7day/"
+layout:     my blog
+iframe:     "http://jiekouw.com"
 ---
 ```
 
@@ -294,7 +281,7 @@ In technical views, it can be done with CSS. However, the opacity of the black o
 #### SEO Title
 
 Before V1.4, site setting `title` is not only used for displayed in Home Page and Navbar, but also used to generate the `<title>` in HTML.
-It's possible that you want the two things different. For me, my site-title is **“Hux Blog”** but I want the title shows in search engine is **“黄玄的博客 | Hux Blog”** which is multi-language.
+It's possible that you want the two things different. For me, my site-title is **“SLY Blog”** but I want the title shows in search engine is **“孙亚丽的博客 | SLY Blog”** which is multi-language.
 
 So, the SEO Title is introduced to solve this problem, you can set `SEOTitle` different from `title`, and it would be only used to generate HTML `<title>` and setting DuoShuo Sharing.
 
